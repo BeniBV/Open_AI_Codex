@@ -93,7 +93,7 @@ const response = await fetch('http://localhost:5000', {
 )
 
 clearInterval(loadInterval);
-messageDiv.innerHTML = '';
+messageDiv.innerHTML = "";
 
 if(response.ok) {
   const data = await response.json();
